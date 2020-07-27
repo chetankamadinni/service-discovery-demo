@@ -1,7 +1,7 @@
 # service-discovery-demo
 Demo of service discovery functionality
 
-In the world of micro-services, each service communitate with every other service over the network for some functuonality. To know where the servive is hosted and on which port it is communicating
+In the world of micro-services, each service may communicate with every other service over the network for some functionality. To know where the service is hosted and on which port it is communicating
 is very difficult. Also if the app spins-up multiple instance each instance has its own port. To know all the details we use service-discovery. Netflix-Eureka server is one such implemenation.
 
 To start an eureka-server. Create a spring-boot app with the below dependency
